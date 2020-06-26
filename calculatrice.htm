@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./assets/js/css/style.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>Calculatrice</h1>
+        <div class="row align-items-center">
+
+            <div class="col"> <button onclick="addition()" id="addition">Addition</button></div>
+            <div class="col"><button onclick="multiplication()" id="multiplication">Multiplication</button>
+            </div>
+            <div class="col"><button onclick="soustraction()" id="soustraction">Soustraction</button></div>
+            <div class="col"><button onclick="division()" id="division">Division</button></div>
+
+        </div>
+
+
+    </header>
+    <main>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10-sm">
+                <h3>Nombre de valeurs</h3>
+                <input type="number" id="nombre">
+                <button onclick="validation()" id="validation">Validation</button>
+
+            </div>
+
+            <div class="col-1"></div>
+
+
+        </div>
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <div id="tst"></div>
+
+            </div>
+            <div class="col-1"></div>
+
+        </div>
+
+        <br>
+        <br>
+
+
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10">
+                <p id="res">Résultat :</p>
+            </div>
+            <div class="col-1"></div>
+
+        </div>
+    </main>
+
+    <script src="./assets/js/calc.js"></script>
+
+</body>
+
+</html>
